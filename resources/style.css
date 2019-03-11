@@ -10,7 +10,7 @@ html{
 
 /*header-nav styles*/
 header{
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png);
+  background-image: img("/resources/glasses-bg.png ");
   background-repeat: none;
   background-size: cover;
   background-position: center;
@@ -67,3 +67,38 @@ nav span{
   font-size: 2rem;
   font-weight: bold;
 }
+
+/*main content*/
+.content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 8rem;
+  margin: 3rem 0;
+}
+
+.icons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icons p{
+  text-align: center;
+  padding-top: 1rem;
+}
+
+    /*image sizes*/
+    .paper{
+      width: 3.5rem;
+    }
+
+    .ruler{
+      width: 5rem;
+    }
+
+    .truck{
+      width: 5rem;
+    }
+
+/*information*/
