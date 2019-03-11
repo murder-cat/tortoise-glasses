@@ -10,7 +10,7 @@ html{
 
 /*header-nav styles*/
 header{
-  background-image: img("/resources/glasses-bg.png ");
+  background-image: url("/resources/glasses-bg.png ");
   background-repeat: none;
   background-size: cover;
   background-position: center;
@@ -102,3 +102,38 @@ nav span{
     }
 
 /*information*/
+.information{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5rem;
+}
+
+.philosophy{
+
+}
+
+.appointment{
+
+}
+
+.philosophy p{
+  width: 32%;
+}
+
+.appointment p{
+  width: 32%;
+}
+
+.philosophy h2{
+  background-color: CadetBlue;
+  width: 10rem;
+  padding: 0.5rem 0 0.5rem 1.25rem;
+  color: white;
+}
+
+.appointment h2{
+  background-color: CadetBlue;
+  color: white;
+  width: 10rem;
+  padding: 0.5rem 0 0.5rem 1.25rem;
+}
