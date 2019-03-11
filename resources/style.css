@@ -54,5 +54,16 @@ nav span{
 }
 
 .slogan{
+  display: flex;
+  justify-content: flex-end;
   position: relative;
+  background-color: white;
+  margin-top: 10rem;
+  margin-left: 25rem;
+  padding: 1.5rem 5rem;
+}
+
+.slogan h1{
+  font-size: 2rem;
+  font-weight: bold;
 }
